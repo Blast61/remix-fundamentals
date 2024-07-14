@@ -1,2 +1,2 @@
-require("esbuild-register");
-module.exports = require("./dev");
+import "esbuild-register";
+export * from "./dev";

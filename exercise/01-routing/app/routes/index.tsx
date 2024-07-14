@@ -48,6 +48,14 @@ export default function Index() {
                   </Link>
                 )}
               </div>
+              <div className="mx-auto mt-16 max-w-7xl text-center">
+                <Link
+                  to="/posts/index.tsx"
+                  className="text-xl text-blue-600 underline"
+                >
+                  Blog Posts
+                </Link>
+              </div>
               <a href="https://remix.run">
                 <img
                   src="https://user-images.githubusercontent.com/1500684/158298926-e45dafff-3544-4b69-96d6-d3bcc33fc76a.svg"

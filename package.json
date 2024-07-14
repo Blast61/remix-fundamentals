@@ -16,7 +16,7 @@
     "setup": "npm install && node ./scripts/setup && run-p typecheck lint build"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/FrontendMasters/remix-fundamentals.git"
   },
   "keywords": [
